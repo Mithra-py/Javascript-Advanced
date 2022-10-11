@@ -31,6 +31,8 @@ const getUsers = async () => {
         updateDom(data)
     } catch (error) {
         console.log(error);
+    }finally{
+        hata = false;
     }
 };
 
